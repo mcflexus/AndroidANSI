@@ -16,7 +16,7 @@ public final class AnsiParser {
     private static final String TAG = "AnsiParser";
     // ANSI Has 2 escape sequences, let support both
     private static final String ESCAPE1 = "^[";
-    private static final String ESCAPE2 = "^[[";
+    private static final String ESCAPE2 = "[";
 
     // Any disabled attributes are unmodified.
     // Disable colors, implies FLAG_PARSE_DISABLE_EXTRAS_COLORS
